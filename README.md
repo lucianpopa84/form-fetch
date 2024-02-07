@@ -20,7 +20,7 @@ Here you will learn to create a Login Form and send the credentials
 
 - create a login form with email & password fields and Submit button and send the credentials in two ways:
 1. using the \<form> element with action and method attributes https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
-2. without the \<form> element, get the input fields values and send them using the fetch API https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch or keep the \<form> element and use `preventDefault()`
+2. without the \<form> element, get the input fields values and send them using the fetch API https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch or keep the \<form> element and use `preventDefault()` on form submit event listner
 - email & password fields must be required and Submit button should not function if either or both fields are empty.
 - create two separate html files (i.e. form.html and fetch.html) but only one style.css which will be reused (do not duplicate styles) 
 - center the email & password fields and Submit button using flex 
